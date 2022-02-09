@@ -545,12 +545,12 @@ export default {
   /* Primary/50 */
   height: 40px;
 
-  border: 1px solid #f9f5ff;
+  border: 1px solid #f9f5ff !important;
   box-sizing: border-box;
   /* Shadow/xs */
 
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05) !important;
-  border-radius: 8px;
+  border-radius: 8px !important;
 
   font-family: Inter;
   font-style: normal;
@@ -568,12 +568,12 @@ export default {
   /* Gray/300 */
   height: 40px;
 
-  border: 1px solid #d0d5dd;
+  border: 1px solid #d0d5dd !important;
   box-sizing: border-box;
   /* Shadow/xs */
 
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-  border-radius: 8px;
+  border-radius: 8px !important;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
