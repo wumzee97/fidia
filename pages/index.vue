@@ -543,7 +543,7 @@ export default {
 .chips {
   background: #f9f5ff !important;
   /* Primary/50 */
-  height: 40px;
+  height: 40px !important;
 
   border: 1px solid #f9f5ff !important;
   box-sizing: border-box;
@@ -566,7 +566,7 @@ export default {
 .chips-more {
   background: #ffffff !important;
   /* Gray/300 */
-  height: 40px;
+  height: 40px !important;
 
   border: 1px solid #d0d5dd !important;
   box-sizing: border-box;
