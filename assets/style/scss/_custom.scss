@@ -45,3 +45,29 @@
     border-radius: 6px;
     color: #7F56D9 !important;
 }
+
+
+.nav-bar {
+    border-bottom: 1px solid #ddd !important;
+    padding-right: 5%;
+    padding-left: 5%;
+    .nav-item {
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height, or 150% */
+  
+      /* Gray/700 */
+  
+      color: #344054;
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 0px 12px;
+    }
+}

@@ -27,7 +27,7 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar height="70px" class="white  nav-bar" fixed app flat>
+    <v-app-bar style="border-bottom: 1px solid #ddd !important;" height="70px" class="white  nav-bar" fixed app flat>
       <img src="../static/assets/Logo.svg" class="mr-3" alt="" />
 
    
@@ -56,7 +56,7 @@
 
       </v-btn>
     </v-app-bar>
-    <v-app-bar height="70px" class="white nav-bar hidden-sm-and-down " style="margin-top: 70px;" fixed flat>
+    <v-app-bar  height="70px" class="white nav-bar hidden-sm-and-down " style="margin-top: 70px; border-bottom: 1px solid #ddd !important;" fixed flat>
       <v-btn class="nav-item pl-0 ml-0" text>Overview</v-btn>
       <v-btn class="nav-item" text>Notifications</v-btn>
       <v-btn class="nav-item" text>Analytics</v-btn>
@@ -65,7 +65,7 @@
       <v-btn class="nav-item" text>User reports</v-btn>
       <v-spacer></v-spacer>
 
-      <v-text-field outlined prepend-inner-icon="search" dense class="mt-6"></v-text-field>
+      <v-text-field outlined prepend-inner-icon="search" placeholder="Search" dense class="mt-6"></v-text-field>
     </v-app-bar>
     <v-main>
       <v-container fluid :class="{'container' : $vuetify.breakpoint.mdAndUp}">
